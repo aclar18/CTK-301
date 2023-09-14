@@ -1,0 +1,42 @@
+p {
+   color : #484848;
+}
+
+body {
+    background-color: rgb(171, 255, 224);
+}
+
+.offcolor {
+    color:#ff6fe0;
+}
+.bluecolor {
+    color: #0015ff; 
+}
+
+#levelpink {
+    color:#ff6fe0
+}
+
+#levelblue {
+    color:#0015ff
+}
+
+a {
+    color: #ff0000;
+}
+
+a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff40;
+  }
+
+  a:hover {
+    color: #ffff00;
+  }        
+
+  .spanstyle{
+    color:#0015ff; 
+  }
