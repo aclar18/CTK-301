@@ -1,0 +1,52 @@
+a {
+    text-decoration: none;
+    color: #39ff4d 
+}
+
+a:hover{
+    text-decoration: underline;
+    color: #ff1116
+}
+
+#posionsky{
+    background-color: #38acff;
+}
+
+#posionsky h1{
+    color:#ffffff;
+}
+
+#pompeii {
+    color: #0000f8;
+}
+.spantop {
+    color: #ffae00;
+}
+
+#inferno {
+    background-color: #ffee00;
+}
+
+#taxi {
+    color: #ff1116;
+}
+
+#fathersday {
+    color :#ffee00;
+    background-color: #114716;
+}
+
+#bottom-para{
+    background-color: #5bdb84;
+}
+
+.spanbottom {
+    color: #0000f8;
+}
+
+#daughter h5{
+    color:#ff1116;
+}
+#daughter{
+    background-color:#ffee00;
+}
