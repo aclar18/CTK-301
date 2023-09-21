@@ -1,0 +1,73 @@
+p {
+   color : #484848;
+}
+
+body {
+    background-color: rgb(171, 255, 224);
+    background-image: url(lily_pad_background.webp);
+    background-repeat: repeat;
+    background-position: top left top right;
+}
+
+.offcolor {
+    color:#ff6fe0;
+}
+.bluecolor {
+    color: #0015ff; 
+}
+
+#levelpink {
+    color:#ff6fe0
+}
+
+#levelblue {
+    color:#0015ff
+}
+
+a {
+    color: #ff0000;
+}
+
+a:link {
+    color: #ff0000;
+  }
+  
+  a:visited {
+    color: #00ff40;
+  }
+
+  a:hover {
+    color: #ffff00;
+  }        
+
+  .spanstyle
+  {color:#0015ff;}
+  
+  .headings {
+    font-family: serif;
+  }
+
+  .bodytext {
+    font-family: helvetica;
+  }
+
+h1, h2 {
+color: #ffc342;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+.textjustify {
+    text-align: justify;
+}
+
+.imageborder{
+    border: 20px solid #000000;
+    padding: 5px;
+}
+
+
+  
+  
