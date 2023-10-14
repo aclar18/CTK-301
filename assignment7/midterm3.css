@@ -1,0 +1,93 @@
+body { 
+    background-color: #999999; 
+}
+.wrapper {
+    margin: 1em auto;
+    padding: 0;
+    width: 850px;
+    border: 5px solid #0062a9;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12) 1fr;
+    grid-template-rows: 100px 48px auto 110px;
+    }
+    header{
+    grid-column: span 12;
+    background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    
+    }
+    h1 { 
+       
+        margin: 0px;
+        padding: 20px;
+        font-style: italic;
+    }
+    a{
+        color: #0eb7ff;
+        font-family: helvetica, sans-serif;
+        font-weight: normal;
+        text-decoration: none;
+    }
+
+    nav {
+    grid-column: span 12;
+    background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    padding: 0px;
+    margin: 0px;
+    } 
+    nav li a:hover {
+        background-image: linear-gradient(to top, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+    
+      }
+      nav li a {
+        color:#ffffff;
+        font-family: helvetica, sans-serif;
+        font-size: larger;
+        font-style:normal;
+        text-decoration: none;
+        margin: 8px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 100px;
+        background-color: #136ef6;
+        background-image: linear-gradient(to bottom, #136ef6, #165fe4, #1651d2, #1543c0, #1335ae);
+       
+    }
+    nav li{
+        display:inline-block;
+        list-style-type: none;
+        margin-left: 0px;
+
+    }
+    main {
+        grid-column: span;
+        padding:15px;
+        
+    }
+    h2{
+        color: #0062a9;
+        font-family: Helvetica, sans-serif;
+        border-bottom:3px solid #0062a9;
+    }
+    .h2box {
+        grid-column: span;
+        padding: 15px;
+
+    }
+    .h2box2 {
+        grid-column: span;
+        padding: 14px;
+    }
+    span.red a {
+        color:#ff0000;
+        text-decoration: none;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+    }
+  footer {
+    grid-column: span 12;
+    border-top: 5px solid #0062a9;
+    background-color: #c30000;
+    padding-bottom: 60px;
+  }
