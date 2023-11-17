@@ -1,0 +1,36 @@
+html{
+    background-image: url(coral\ and\ blue\ snow\ pic.JPG);
+    background-repeat: repeat;
+
+}
+    
+      nav li a {
+        color:#ffffff;
+        font-family: helvetica, sans-serif;
+        font-size: larger;
+        font-style:normal;
+        text-decoration: none;
+        margin: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        padding-right: 100px;
+        border:#000;
+        background-color: rgb(255, 125, 108);
+    
+    }
+    header{
+        border-color:5px solid #000;
+        grid-column: span (12);
+      }
+    nav li{
+        display:inline-block;
+        list-style-type: none;
+        margin-left: 150px;
+        margin-right:0px;
+
+    }
+    nav li a:hover {
+        color:#cccccc;
+        background-color:#0062a9;
+      }
