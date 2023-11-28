@@ -1,12 +1,31 @@
 html{
-    background-image: url(coral\ and\ blue\ snow\ pic.JPG);
+    background-image: url(cloud\ background.jpg);
     background-repeat: repeat;
+    font-family: 'Open Sans', sans-serif;
 
 }
+
+#wrapper {
+  margin: 1em auto;
+  width: 1030px;
+  border: 3px solid #5699cf;
+  background-color: #d4f5ff;
+  border-radius: 30px;
+  padding: 1em;
+}
+#wrapper2 {
+  margin: 1em auto;
+  width: 1030px;
+  border: 3px solid #5699cf;
+  background-color: #d4f5ff;
+  border-radius: 30px;
+  padding: 1em;
+}
+
     
       nav li a {
         color:#ffffff;
-        font-family: helvetica, sans-serif;
+       
         font-size: larger;
         font-style:normal;
         text-decoration: none;
@@ -34,3 +53,9 @@ html{
         color:#cccccc;
         background-color:#0062a9;
       }
+     .simpletitle{
+                
+               
+                padding-left: 2x;  
+            }  
+

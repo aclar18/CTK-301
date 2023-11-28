@@ -1,12 +1,12 @@
 html{
-    background-image: url(coral\ and\ blue\ snow\ pic.JPG);
+    background-image: url(violet\ witch\ background.png);
     background-repeat: repeat;
-
+    font-family: 'Open Sans', sans-serif;
 }
     
       nav li a {
         color:#ffffff;
-        font-family: helvetica, sans-serif;
+        
         font-size: larger;
         font-style:normal;
         text-decoration: none;
@@ -77,14 +77,14 @@ html{
                 display:grid;
                 align-self: center;
                 justify-content: center;
-                font-family: helvetica, sans-serif;
+                
                 font-size: larger;
                 font-style:normal;
                 text-align: center;
                 
             }
             .simpletitle{
-                font-family: helvetica, sans-serif;
+               
                 font-size: larger;
                 font-style:normal;
                 padding-left: 2x;  
@@ -104,7 +104,7 @@ html{
             color:#ffffff;
             grid-column: span 12;
             margin-left: 20px;
-            font-family: helvetica, sans-serif;
+           
             font-size: 20px;
             font-style:normal;
          }
@@ -146,7 +146,7 @@ html{
                 border-radius: 30px;
                 display:grid;
                 justify-content: center;
-                font-family: helvetica, sans-serif;
+                
                 font-size: larger;
                 font-style:normal;
             }
