@@ -1,0 +1,74 @@
+html{ 
+    background-image: url(gradient.png);
+    background-size: 2000px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+nav li a {
+    color:#ffffff;
+    
+    font-size: larger;
+    font-style:normal;
+    text-decoration: none;
+    margin: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 100px;
+    border:#000;
+    background-color: rgb(255, 125, 108);
+
+}
+
+header{
+    border-color:5px solid #000;
+    grid-column: span (12);
+  }
+nav li{
+    display:inline-block;
+    list-style-type: none;
+    margin-left: 150px;
+    margin-right:0px;
+
+}
+nav li a:hover {
+    color:#cccccc;
+    background-color:#0062a9;
+  }
+  
+
+
+.box {
+    margin: 5em auto;
+    padding: 0;
+    width: 1050px;
+    border: 5px solid #0062a9 ;
+    border-radius: 30px;
+    background-color: #ffffff;
+    display: grid;
+    grid-template-columns: repeat(12) 1fr;
+}
+.mebox{
+    grid-column: span 7;
+    border: 5px solid #0062a9;
+    background-color: #ffffff;
+    border-radius: 30px;
+    display:grid;
+    justify-content: center;
+    padding: 20px;
+  
+}
+
+.photoshapper {
+    border-radius: 25px;
+    
+}
+.bi::before {
+    color: cornflowerblue;
+    font-size: 3rem; 
+}
+.bi li{
+    display:inline-block;
+    list-style-type: none;
+}
