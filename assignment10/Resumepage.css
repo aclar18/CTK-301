@@ -20,6 +20,7 @@ nav li a {
     background-color: rgb(255, 125, 108);
 
 }
+
 header{
     border-color:5px solid #000;
     grid-column: span (12);
@@ -36,11 +37,13 @@ nav li a:hover {
     background-color:#0062a9;
   }
   
+
+
 .box {
     margin: 5em auto;
     padding: 0;
     width: 1050px;
-    border: 5px solid  #3fafff;
+    border: 5px solid #0062a9 ;
     border-radius: 30px;
     background-color: #ffffff;
     display: grid;
@@ -48,7 +51,7 @@ nav li a:hover {
 }
 .mebox{
     grid-column: span 7;
-    border: 5px solid  #3fafff;
+    border: 5px solid #0062a9;
     background-color: #ffffff;
     border-radius: 30px;
     display:grid;
@@ -60,4 +63,12 @@ nav li a:hover {
 .photoshapper {
     border-radius: 25px;
     
+}
+.bi::before {
+    color: cornflowerblue;
+    font-size: 3rem; 
+}
+.bi li{
+    display:inline-block;
+    list-style-type: none;
 }
